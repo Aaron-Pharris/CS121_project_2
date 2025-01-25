@@ -17,9 +17,10 @@ This program is meant to sort a predetermined array of numbers into numerical or
     * makes a temporary variable and copies the value at *x to it
     * it then copies the value at *y to *x
     * finally it takes the old *x value that was copied to temp and copies it to *y
-* sort(int*)
+* sort(int*) 
     * establishes a constant MAX which is equal to the length of the array (9)
     * for every index in values[], if index j is bigger than the next item in the array (j + 1), it
       copies that value at index j to the value at index j + 1
-    * every time it copies index j to index j + 1, it calls printValues() to print the array as it       sorts
+    * every time it copies index j to index j + 1, it calls printValues() to print the array as it sorts
+**NOTE: the code was working fine up until the sort function. I assume it is with the parameters but no matter what I tried it would give me an error when it got to calling the sort.
 
